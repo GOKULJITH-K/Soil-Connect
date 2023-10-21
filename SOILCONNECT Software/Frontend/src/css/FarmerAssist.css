@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+
+    
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(5968949.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+.destinations{
+    width: auto;
+    margin: 30;
+    text-align: center;
+    
+}
+
+h1 {
+    background: white;
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 18px 0;
+    color: black;
+  }
+.row{
+    margin-top: 5%;
+    display: column;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+p{
+    color: rgb(3, 17, 17);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    text-align: left;
+}
+.row ul{
+    margin-left: 30px;
+}
+.row li{
+    color: rgb(3, 17, 17);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    text-align: left;
+}
+
+.destination-col{
+    flex-basis: 31%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+@media(max-width:767px){
+    .row{
+        width: 100%;
+        
+    }
+    
+}
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgb(20, 14, 77);
+    color: rgb(245, 239, 239);
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #0a5037;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+

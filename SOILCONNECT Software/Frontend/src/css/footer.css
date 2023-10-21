@@ -1,0 +1,48 @@
+.home {
+    width: auto;
+    margin: 20px;
+    }
+    .home p{
+    padding: 0;
+    margin:10px;
+    }
+    .home{
+      width: auto;
+      text-align: left;
+      padding: 30px 30px 30px 30px;
+      background: rgb(20, 14, 77);
+      border-radius: 5px 5px 5px 5px;
+    
+    }
+    .home h4{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+    }
+    
+    .home p{
+      padding: 0;
+      color:rgb(243, 238, 238);
+    }
+    .footer{
+      text-align: left;
+     padding:  30px;
+     background: rgb(20, 14, 77);
+     margin-right:16px;
+     margin-left:16px;
+     margin-bottom: 20px;
+     border-radius: 5px 5px 5px 5px;
+     
+   }
+   .footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+
+}  
+    
+    

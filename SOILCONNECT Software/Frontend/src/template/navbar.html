@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Navbar</title>
+<link rel="stylesheet" href="/src/css/navbar.css">
+</head>
+<body>
+    <nav >
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/src/template/index.html">Home</a></li>
+            <li><a href="/src/template/analysis.html">Soil Analysis</a></li>
+            <li><a href="/src/template/Visualization.html">Visualization</a></li>
+            <li><a href="/src/template/FarmerAssist.html">Farmer Assist</a></li>
+            <li><a href="/src/template/forecast.html">Weather Forecast</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile" ><a href="/src/template/index.html">Home</a></li>
+            <li class="hideOnMobile" ><a href="/src/template/analysis.html">Soil Analysis</a></li>
+            <li class="hideOnMobile" ><a href="/src/template/Visualization.html">Visualization</a></li>
+            <li class="hideOnMobile" ><a href="/src/template/FarmerAssist.html">Farmer Assist</a></li>
+            <li class="hideOnMobile" ><a href="/src/template/forecast.html">Weather Forecast</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
