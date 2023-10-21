@@ -53,7 +53,7 @@ Developing and deploying low-cost, low-power, quicker, and real-time soil condit
 
 1. ESP-32 from SoilConnect sensor node reads the sensor readings. 
 2. It will send the readings through MQTT Protocol to IoT Cloud
-3. Using API it delivers the contents from IoT Cloud to website and processed
+3. API delivers and processes the contents from IoT Cloud to website 
 5. A Dashboard is created to visualize realtime data.
 
 ## Long description
