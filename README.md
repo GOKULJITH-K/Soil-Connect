@@ -25,8 +25,6 @@ SoilConnect is a low cost IoT based real time Soil condition and nutrients monit
     - [Data Visualization](#data-visualisation)
     - [Farmer Assist](#farmer-assist)
     - [Weather Forecast](#weather-forecast)
-  - [Built with](#built-with)
-  - [Contributing](#contributing)
   - [Authors](#authors)
   - [License](#license)
   - [Acknoledgement](#acknoledgement)
@@ -35,32 +33,27 @@ SoilConnect is a low cost IoT based real time Soil condition and nutrients monit
 
 ### What's the problem?
 
-Soil conditions and nutrients monitoring using the cloud is a project aimed at enhancing soil health and crop productivity. Traditional methods of monitoring
-soil conditions and nutrient levels involve manual sampling and laboratory analysis,which can be time consuming and expensive and may not provide real time data. The
-challenge with soil conditions and nutrient monitoring is the need for accurate and timely information on soil conditions and nutrient levels in agricultural settings.
+Manual sampling and laboratory analysis are the traditional methods for monitoring soil conditions and nutrient levels, but they can be time-consuming and expensive, and may not give real-time data. Agricultural settings require accurate and timely information about soil conditions and nutrient levels, which is a challenge with soil conditions and nutrient monitoring. Farmers who are unable to obtain the weather details may face losses in farming, which is why it is crucial to understand weather forecasting in a timely manner. Farmers should obtain adequate information about soil and crop details to enhance crop productivity.We are working to address some of the challenges farmers encounter. 
 
 ### How can technology help?
 
-Our proposed solution will help the farmer in all aspects, which involve the monitoring of nutrients and conditions in the soil. The data collected from the mon-
-itoring station will be stored in a cloud server for analysis. The main purpose is to monitor the level of nutrients in the soil. Also our proposed system will monitor
-the parameters like nitrogen, phosphorous, potassium, temperature, pH value using various sensors. This will help a farmer to know his soil before starting farming and
-precisely plan cultivation.
+Our proposed solution will help the farmer in all aspects, including monitoring nutrients and soil conditions. The data obtained from the monitoring system will be archived on a cloud server for evaluation. The main goal is to keep track of the level of nutrients in the soil. Various sensors will be used to monitor parameters such as nitrogen, phosphorous, potassium, temperature, and pH value in our proposed system. Farmers will be able to accurately plan cultivation by knowing their soil before starting farming. The sensor data has been incorporated into our website. The soil analysis feature on our website allows for the display of results for various parameters and the visualization of the analyzed data. There is also a section designed to educate farmers. Details about the importance of these parameters are provided in that section, and we will also provide crop information to enhance productivity. The forecasting section is where they will receive the five-day weather forecast in advance. 
+
 ### The idea
 
-Developing and deploying low cost, low power, quicker, and real time soil conditions and nutrients monitoring system at pollution affected area. For this, array sensor nodes are developed by incorporating major air nutrients and conditions sensors and NodeMCU.  This embedded system uploads the soil nutrients and conditions data to the IBM Watson IoT cloud over Wi-Fi protocol. 
+Developing and deploying low-cost, low-power, quicker, and real-time soil conditions and nutrients monitoring systems in farm lands For this, sensor nodes are developed by incorporating major soil nutrients and conditions sensors and ESP-32. This embedded system uploads the soil nutrients and conditions data to the IoT cloud over Wi-Fi protocol. The data from the cloud is fetched using an API, and using JavaScript, the data is analysed and displayed on our website.
 
 ## Demo video
 
-[![Watch the video](./docs/images/YT-Thumbnail.png)](https://www.youtube.com/watch?v=G5Q1Tb0h1t)
+[![Watch the video]()]()
 
 ## The architecture
 
-![Single Node Data flow](./docs/images/Block-Diagram---Github.jpg)
+![Data Flow]()
 
 1. ESP-32 from SoilConnect sensor node reads the sensor readings. 
-2. It will send the readings through MQTT Protocol to IBM Watson IOT
-3. Using Node Red Flows the readings are fetched from IBM Watson IOT and Stored it into IBM Cloudant DB
-4. A public API Endpoint is made using Fast API, It processes and delivers the contents from Cloudant DB to Apps
+2. It will send the readings through MQTT Protocol to IoT Cloud
+3. Using API it processes and delivers the contents from IoT Cloud to website
 5. A Dashboard is created to visualize realtime data.
 
 ## Long description
@@ -71,7 +64,7 @@ Developing and deploying low cost, low power, quicker, and real time soil condit
 
 The project currently does the following things.
 - Sense Major nutrients and conditions.
-- Sent readings seperatly to IBM Watson IOT cloud.
+- Sent readings seperatly to IoT cloud.
 - Display Realtime data at Webendpoint
 - Provide API to fetch Realtime and historical data.
 
@@ -79,33 +72,27 @@ The project currently does the following things.
 
 You can find the details of each section by clicking the image 🖼️ below 🔻 .
 
-[![Polmo Software](./docs/images/software-button.png)](./POLMO%20Sofware/)
-[![Polmo Hardware](./docs/images/hardware-button.png)](./POLMO%20Hardware/)
+[![SoilConnect Software](./docs/images/software-button.png)](./Soil-connect/SOILCONNECT-Sofware/)
+[![SoilConnect Hardware](./docs/images/hardware-button.png)](./Soil-connect/SOILCONNECT-Hardware/)
 
 ## Live demo
 
-By clicking this [link you](https://bit.ly/Team_Five) can visit the live website. 
+By clicking this [link you]() can visit the live website. 
 
-[![VisitWebsite](https://img.shields.io/badge/Polmo-Website-a13d5e?style=social&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAixJREFUOE9Vk79rFEEUxz9vw0kQRPBHKaRQO0FJLyiC2hjQHAS9PbN38ZqITYyWnmBpLBQLJXd7ZhKJXqI2ohZiEdAq8Q8QG4s0QQu5eMjJPZmZ3c3esAw7M2/e+77v9zuCHeJmPzTZEKjrneAQ38aqLL22IemR//H3/Ac0GT9Yob1l14K6mCblM4LOVsScVU1P0io+pfhweCalWwrbkZrHaYEWZdNHi126B6ZZ7dgLLynu6jB8sYJZzsDbXDHhtKKPBJnpIW8L9I/1kQWB3UA5wpiYaFjprQiyGWFqDlMChCaXrwpBKwMoYGF7mIKqfg+Q3wonEB5EamYG6GtRuqTISo5OT0/Sj2XFV7OT3I1YqNu14wBRGloeE/SNPRe1ceroHEjg8ditm1XMXCbBvBT3DTH8BeWovyGukE2UqTuw1o0h5GQZsy1PqBUKdD8InHKXfb+JuF7ifDLXgedmNZKlosSETxG9lkU6DzjwiVlcP3nvZNwI3JOYyZG+/AsDDULQI5nJdipllvPI3MEvoB2ImryJJab0ELju2oA1Uf2q0BHYD1JLqP3UYev8DXn/d0fGxA2xls6BvAN6fXojU7zYTOVraPhR4LQKs1U19z1LmbTeNQ0u7AnY+1OFVxU1E0lex0mTcFxE26o6WpHFDSe1bS7nFZezQfhZ0NsRi2upS22oV+vP+g8OH69Lve/ga2Ll/CueJ5yYUrPsHllaJhGkxZXRSZ6vJ+I6ef8DHNju1CxiaEQAAAAASUVORK5CYII=)](https://bit.ly/Team_Five)
+[![VisitWebsite](https://img.shields.io/badge/soilconnect-a13d5e?style=social&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAixJREFUOE9Vk79rFEEUxz9vw0kQRPBHKaRQO0FJLyiC2hjQHAS9PbN38ZqITYyWnmBpLBQLJXd7ZhKJXqI2ohZiEdAq8Q8QG4s0QQu5eMjJPZmZ3c3esAw7M2/e+77v9zuCHeJmPzTZEKjrneAQ38aqLL22IemR//H3/Ac0GT9Yob1l14K6mCblM4LOVsScVU1P0io+pfhweCalWwrbkZrHaYEWZdNHi126B6ZZ7dgLLynu6jB8sYJZzsDbXDHhtKKPBJnpIW8L9I/1kQWB3UA5wpiYaFjprQiyGWFqDlMChCaXrwpBKwMoYGF7mIKqfg+Q3wonEB5EamYG6GtRuqTISo5OT0/Sj2XFV7OT3I1YqNu14wBRGloeE/SNPRe1ceroHEjg8ditm1XMXCbBvBT3DTH8BeWovyGukE2UqTuw1o0h5GQZsy1PqBUKdD8InHKXfb+JuF7ifDLXgedmNZKlosSETxG9lkU6DzjwiVlcP3nvZNwI3JOYyZG+/AsDDULQI5nJdipllvPI3MEvoB2ImryJJab0ELju2oA1Uf2q0BHYD1JLqP3UYev8DXn/d0fGxA2xls6BvAN6fXojU7zYTOVraPhR4LQKs1U19z1LmbTeNQ0u7AnY+1OFVxU1E0lex0mTcFxE26o6WpHFDSe1bS7nFZezQfhZ0NsRi2upS22oV+vP+g8OH69Lve/ga2Ll/CueJ5yYUrPsHllaJhGkxZXRSZ6vJ+I6ef8DHNju1CxiaEQAAAAASUVORK5CYII=)](https://bit.ly/Team_Five)
 
 
 ## Applications
 Here are some animations which we are planning to build. 
-### Mesh Network - Simple application
-![Mesh Network Plan](docs/images/Application-Mesh-Simple-Working.gif)
-### Mesh Network - Vehicle Traffic
-![Mesh Network Application](docs/images/Application-Mesh-GPS-Assist.gif)
+### Data Analysis 
+![Data Analysis](docs/images/Application-Mesh-Simple-Working.gif)
+### Data Visualization
+![Data Visualization](docs/images/Application-Mesh-GPS-Assist.gif)
+### Farmer Assist
+![Farmer Assist](docs/images/Application-Mesh-GPS-Assist.gif)
+### Weather Forecast
+![Weather Forecast](docs/images/Application-Mesh-GPS-Assist.gif)
 
-## Built with
-
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Watson IOT](https://cloud.ibm.com/catalog?search=IOT#search_results) - The Internet of things platform
-- [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=cloud%20foundry#search_results) - The Application Containers
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
