@@ -73,8 +73,8 @@ The project currently does the following things.
 
 You can find the details of each section by clicking the image 🖼️ below 🔻 .
 
-[![SoilConnect Software](./docs/images/software-button.png)](./SOILCONNECTSoftware/)
-[![SoilConnect Hardware](./docs/images/hardware-button.png)](./SOILCONNECTHardware/)
+[![SoilConnect Software](./docs/images/software-button.png)](./SOILCONNECT Software/)
+[![SoilConnect Hardware](./docs/images/hardware-button.png)](./SOILCONNECT Hardware/)
 
 ## Live demo
 
