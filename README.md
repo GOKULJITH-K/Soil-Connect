@@ -91,7 +91,7 @@ Here are some representative images of which we are planning to build.
 ### Farmer Assist
 ![Farmer Assist](docs/images/IMG-2978.JPG)
 ### Weather Forecast
-![Weather Forecast](docs/images/IMG-2980.JPG)
+![Weather Forecast](docs/images/IMG-2979.PNG)
 
 
 ## Authors
