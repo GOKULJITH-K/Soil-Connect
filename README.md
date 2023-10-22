@@ -85,13 +85,13 @@ By clicking this [link you]() can visit the live website.
 ## Applications
 Here are some animations which we are planning to build. 
 ### Data Analysis 
-![Data Analysis](docs/images/Application-Mesh-Simple-Working.gif)
+![Data Analysis](docs/images/IMG-2980.JPG)
 ### Data Visualization
-![Data Visualization](docs/images/Application-Mesh-GPS-Assist.gif)
+![Data Visualization](docs/images/IMG-2977.JPG)
 ### Farmer Assist
-![Farmer Assist](docs/images/Application-Mesh-GPS-Assist.gif)
+![Farmer Assist](docs/images/IMG-2978.JPG)
 ### Weather Forecast
-![Weather Forecast](docs/images/Application-Mesh-GPS-Assist.gif)
+![Weather Forecast](docs/images/IMG-2980.JPG)
 
 
 ## Authors
