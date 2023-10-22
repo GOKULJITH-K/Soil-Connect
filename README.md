@@ -45,7 +45,7 @@ Developing and deploying low-cost, low-power, quicker, and real-time soil condit
 
 ## Demo video
 
-[![Watch the video]()]()
+[![Watch the video](/docs/demo.MP4)]
 
 ## The architecture
 
