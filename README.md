@@ -83,7 +83,7 @@ By clicking this [link you]() can visit the live website.
 
 
 ## Applications
-Here are some animations which we are planning to build. 
+Here are some representative images of which we are planning to build. 
 ### Data Analysis 
 ![Data Analysis](docs/images/IMG-2980.JPG)
 ### Data Visualization
