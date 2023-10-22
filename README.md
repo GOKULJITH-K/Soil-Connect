@@ -44,8 +44,7 @@ Developing and deploying low-cost, low-power, quicker, and real-time soil condit
 
 ## Demo video
 
-[![SoilConnect]
-(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] 
+![SoilConnect]
 (https://youtube.com/shorts/lN8xdEh7IvA?si=w6Axg2Cj0Fh55chC "SoilConnect")
 
 ## The architecture
