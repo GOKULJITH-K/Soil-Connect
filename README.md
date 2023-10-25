@@ -44,7 +44,11 @@ Developing and deploying low-cost, low-power, quicker, and real-time soil condit
 
 ## Demo video
 
-https://youtube.com/shorts/lN8xdEh7IvA?si=w6Axg2Cj0Fh55chC
+
+
+https://github.com/GOKULJITH-K/Soil-Connect/assets/87140397/dbc4f38f-f232-4f43-8b09-24ae88cfb119
+
+
 
 ## The architecture
 
